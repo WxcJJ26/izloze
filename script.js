@@ -21,7 +21,7 @@ let uzvaretajs = vardi[rand];
 }
 rindas.innerHTML += ` 
 <tr>
-<td>${i+1}</td> //$ norada mainigo
+<td>${i+1}</td> 
 <td>${uzvaretajs}</td>
 </tr>`//izvada vairakas rindas
 
