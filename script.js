@@ -20,7 +20,7 @@ for (let i = 0; i < uzvaretajuskaits; i++) {//cikls, i++ paņem vienu uz preikš
     let uzvaretajs = vardi[rand];
     //console.log(uzvaretajs);
 
-    let rand1 = Math.random() * balvas.length; 
+    let rand1 = Math.random() * balvas.length;
     rand1 = Math.floor(rand1);
     let uzvaretajs1 = balvas[rand1];
 
@@ -31,8 +31,10 @@ for (let i = 0; i < uzvaretajuskaits; i++) {//cikls, i++ paņem vienu uz preikš
 <td>${uzvaretajs}</td>
 <td>${uzvaretajs1}</td>
 </tr>`//izvada vairakas rindas
+
 }
-    
+
+
 
 
 
