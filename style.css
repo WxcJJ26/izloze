@@ -1,0 +1,14 @@
+table, tr, td{
+    border: 5px solid rgb(103, 4, 216);
+     color: rgb(103, 4, 216);
+     background-color: rgba(208, 255, 0, 0.432)
+   }
+   body{
+   background-image: url("https://brivbridis.lv/wp-content/uploads/2019/10/auditorija1.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;}
+
+h1 {
+color :rgb(103, 4, 216)
+}

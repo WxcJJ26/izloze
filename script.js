@@ -1,7 +1,7 @@
 //var, let, const
 //console.log
 const vardi = ['Sandra Vera', 'Laura Petere', 'Anna Ločmele', 'Krišjānis Mednis', 'Rihards Reinfelds'];
-const balvas = ['dators', 'telefons', 'gludeklis', 'puķes', 'fotoaparāts'];
+const balvas = ['Dators', 'Telefons', 'Gludeklis', 'Puķes', 'Fotoaparāts'];
 const naudaskopa = 1000000;//sis pat netiks izmantots
 let uzvaretajuskaits = 5;
 let balvuskaits = 5;
@@ -23,7 +23,7 @@ for (let i = 0; i < uzvaretajuskaits; i++) {//cikls, i++ paņem vienu uz preikš
     let rand1 = Math.random() * balvas.length;
     rand1 = Math.floor(rand1);
     let uzvaretajs1 = balvas[rand1];
-
+    
 
     rindas.innerHTML += ` 
 <tr>
@@ -33,8 +33,4 @@ for (let i = 0; i < uzvaretajuskaits; i++) {//cikls, i++ paņem vienu uz preikš
 </tr>`//izvada vairakas rindas
 
 }
-
-
-
-
 
